@@ -1,0 +1,628 @@
+body {
+  font-family: "Montserrat";
+  background-color: #8186d5;
+}
+
+/* HEADINGS */
+.purple-subheading {
+  color: #494ca2;
+  font-weight: 800;
+  font-size: 1.5rem;
+  padding: 1.2rem 0;
+}
+
+.subheading {
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: 0 0 1rem;
+}
+
+.carousel-title {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.fee-title {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.event-title {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.pool-name {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.session-title {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.news-title {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.small-heading {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.purple-link {
+  color: #494ca2;
+}
+
+.silver-link {
+  color: #e3e7f1;
+}
+
+/* BACKGROUND COLOURS*/
+.purple {
+  background-color: #8186d5;
+  padding: 3% 7%;
+}
+
+.silver {
+  background-color: #e3e7f1;
+  padding: 3% 7%;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  border: 5px solid #e3e7f1;
+  background-repeat: repeat;
+}
+
+/* BMSC LOGO */
+.BMSC-logo {
+  height: 100px
+}
+
+/* // Hide short text by default (resolution > 750px) */
+.short-text {
+  display: none;
+}
+
+/* // When resolution <= 750px, hide full text and show short text */
+@media (max-width: 750px) {
+  .short-text {
+    display: inline-block;
+    font-size: 1.5rem
+  }
+
+  .full-text {
+    display: none;
+  }
+
+  .BMSC-logo {
+    height: 75px
+  }
+}
+
+.container-fluid {
+  padding: 3% 7%;
+}
+
+/* Navigation bar */
+.purple-nav {
+  background-color: #8186d5;
+}
+
+.navbar {
+  padding: 0 0 2rem;
+}
+
+.navbar-brand {
+  font-family: "oswald";
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0 12px;
+  color: #e3e7f1;
+}
+
+.nav-item {
+  padding: 0 12px;
+}
+
+.nav-link {
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/*
+.table-SILVER{
+  background-color: #e3e7f1;
+} */
+/* BUTTONS */
+.about-us-button {
+  margin: 5% 3% 5% 0;
+}
+
+.more-details-button {
+  margin: 0 3% 5% 0;
+}
+
+/* Main page message */
+.index-new {
+  color: #494CA2;
+  background-color: #e3e7f1;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  .index-new {
+    color: #494CA2;
+    background-color: #e3e7f1;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+/* Title image */
+.title-image {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.5rem;
+  width: 80%;
+}
+
+.about-us {
+  margin: 2.5rem 0 0;
+}
+
+/* Events section */
+#events {
+  padding: 0;
+}
+
+.event-box {
+  text-align: center;
+  padding: 3%;
+}
+
+@media (max-width: 750px) {
+  .event-box {
+    padding: 3% 20%;
+  }
+}
+
+.icon {
+  color: #494ca2;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #8186d5;
+}
+
+/* CALENDAR */
+.calendar {
+  width: 315px;
+  background: #c6cbef;
+  border-radius: 5px;
+  overflow: hidden;
+  display: block;
+  margin: 20px auto 10px;
+  box-shadow: 0 0 10px #201d1c;
+}
+
+.calendar-inner {
+  padding: 0 10px 10px 10px;
+}
+
+.calendar-inner span {
+  font-weight: 400;
+  color: #494ca2;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+  line-height: 40px;
+}
+
+.calendar-title {
+  font: 1.2rem;
+  font-weight: 600;
+  color: #494ca2;
+  display: block;
+  margin: 18px 0 0 0;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.calendar-inner .blank:before {
+  opacity: 0.3;
+  content: '-';
+}
+
+.circle {
+  border: 2px solid #e3e7f1;
+  /* box-sizing:border-box; */
+  border-radius: 100%;
+}
+
+.circle-red {
+  border: 2px solid #d92027;
+  /* box-sizing:border-box; */
+  border-radius: 100%;
+}
+
+.circle-orange {
+  border: 2px solid #ff9234;
+  /* box-sizing:border-box; */
+  border-radius: 100%;
+}
+
+.circle-green {
+  border: 2px solid #35d0ba;
+  /* box-sizing:border-box; */
+  border-radius: 100%;
+}
+
+.circle-darkgreen {
+  border: 2px solid #1F8A70;
+  /* box-sizing:border-box; */
+  border-radius: 100%;
+}
+
+span[data-title]:hover:after,
+div[data-title]:hover:after {
+  font-size: 12px;
+  font-weight: 400;
+  content: attr(data-title);
+  position: absolute;
+  background-color: #494ca2;
+  border: 1px solid #e3e7f1;
+  color: #e3e7f1;
+  padding: 0 5px;
+}
+
+/* news */
+#news-carousel {
+  padding: 3% 15%;
+  text-align: center;
+}
+
+.news-image {
+  width: 40%;
+  margin: 20px;
+}
+
+/* More details news button */
+.mainpage-button3 {
+  margin: 0 3% 3% 0;
+}
+
+/* Supported by */
+.ptl-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+/* Footer */
+.footer {
+  color: #494ca2;
+  text-align: center;
+  padding: 2% 5%;
+}
+
+.footer:hover {
+  color: #c6cbef;
+  text-decoration: none;
+}
+
+#footer {
+  text-align: center;
+}
+
+/* ----------------------ABOUT US----------------------- */
+/* The gallery*/
+.picture-gallery {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.5rem;
+  width: 80%;
+}
+
+/* ----------------------POOL TIMES----------------------- */
+.container-fluid-pt {
+  padding: 0 0 1rem;
+}
+
+@media screen and (max-width: 991px) {
+
+  /* start of large tablet styles */
+  .ptlocation-box {
+    min-width: 70%;
+    padding: 3%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  /* start of medium tablet styles */
+  /* Adding a fixed/percentage min-width could ensure that the image doesn't get too small */
+  .ptlocation-box {
+    min-width: 30%;
+    text-align: center;
+    padding: 3%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+
+  /* start of phone styles */
+  /* It's possible to hide the image if the screen becomes too small */
+  .ptlocation-box {
+    min-width: 10%;
+    text-align: center;
+    padding: 3%;
+  }
+}
+
+/* -------------------------OPENWATER----------------------- */
+.openwater-img-venue {
+  margin: 3% 15%;
+  width: 150px;
+  height: 75px;
+  radius: 100%;
+  background-color: #e3e7f1;
+}
+
+.container-fluid-ow {
+  padding: 0 0 1rem;
+}
+
+@media screen and (max-width: 991px) {
+
+  /* start of large tablet styles */
+  .owlocation-box {
+    min-width: 70%;
+    padding: 3%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  /* start of medium tablet styles */
+  /* Adding a fixed/percentage min-width could ensure that the image doesn't get too small */
+  .owlocation-box {
+    min-width: 30%;
+    text-align: center;
+    padding: 3%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+
+  /* start of phone styles */
+  /* It's possible to hide the image if the screen becomes too small */
+  .owlocation-box {
+    min-width: 10%;
+    text-align: center;
+    padding: 3%;
+  }
+}
+
+/* ----------------------------NEWs&SOCIALS------------------- */
+.news-image2 {
+  height: 120px;
+  width: 120px;
+  margin: 0;
+}
+
+/* ---------------------------JOINING&FEES--------------------- */
+.fee-table {
+  text-align: center;
+}
+
+/* ------------BOOKING------------------ */
+body {
+  background-image: linear-gradient(to right, #7B1FA2, #E91E63)
+}
+
+.section {
+  position: relative;
+  height: 100vh
+}
+
+.section .section-center {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%)
+}
+
+#booking {
+  font-family: 'Raleway', sans-serif
+}
+
+.booking-form {
+  position: relative;
+  max-width: 642px;
+  width: 100%;
+  margin: auto;
+  padding: 40px;
+  overflow: hidden;
+  background-image: url('https://i.imgur.com/8z1tx3u.jpg');
+  background-size: cover;
+  border-radius: 5px;
+  z-index: 20
+}
+
+.booking-form::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1
+}
+
+.booking-form .form-header {
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px
+}
+
+.booking-form .form-header h1 {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 42px;
+  margin: 0px;
+  color: #fff
+}
+
+.booking-form .form-group {
+  position: relative;
+  margin-bottom: 30px
+}
+
+.booking-form .form-control {
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 60px;
+  padding: 0px 25px;
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 0px 2px transparent;
+  box-shadow: 0px 0px 0px 2px transparent;
+  -webkit-transition: 0.2s;
+  transition: 0.2s
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5)
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5)
+}
+
+.booking-form .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5)
+}
+
+.booking-form .form-control:focus {
+  -webkit-box-shadow: 0px 0px 0px 2px #ff8846;
+  box-shadow: 0px 0px 0px 2px #ff8846
+}
+
+.booking-form input[type="date"].form-control {
+  padding-top: 16px
+}
+
+.booking-form input[type="date"].form-control:invalid {
+  color: rgba(255, 255, 255, 0.5)
+}
+
+.booking-form input[type="date"].form-control+.form-label {
+  opacity: 1;
+  top: 10px
+}
+
+.booking-form select.form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none
+}
+
+.booking-form select.form-control:invalid {
+  color: rgba(255, 255, 255, 0.5)
+}
+
+.booking-form select.form-control+.select-arrow {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 32px;
+  line-height: 32px;
+  height: 32px;
+  text-align: center;
+  pointer-events: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px
+}
+
+.booking-form select.form-control+.select-arrow:after {
+  content: '\279C';
+  display: block;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg)
+}
+
+.booking-form select.form-control option {
+  color: #000
+}
+
+.booking-form .form-label {
+  position: absolute;
+  top: -10px;
+  left: 25px;
+  opacity: 0;
+  color: #ff8846;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  height: 15px;
+  line-height: 15px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all
+}
+
+.booking-form .form-group.input-not-empty .form-control {
+  padding-top: 16px
+}
+
+.booking-form .form-group.input-not-empty .form-label {
+  opacity: 1;
+  top: 10px
+}
+
+.booking-form .submit-btn {
+  color: #fff;
+  background-color: #e35e0a;
+  font-weight: 700;
+  height: 60px;
+  padding: 10px 30px;
+  width: 100%;
+  border-radius: 40px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1.3px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all
+}
+
+.booking-form .submit-btn:hover, .booking-form .submit-btn:focus {
+  opacity: 0.9
+}
